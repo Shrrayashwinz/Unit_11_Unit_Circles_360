@@ -48,3 +48,4 @@ def test_not_valid_input():
     assert degree_rotation("-") == None
     assert degree_rotation("*") == None
     assert degree_rotation("90j") == None
+    assert degree_rotation("Mr.Burns") == None
